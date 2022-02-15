@@ -1,0 +1,8 @@
+﻿  Draw.cpp
+d:\pa2_skeleton\pa2_skeleton\draw.cpp(2): fatal error C1083: 포함 파일을 열 수 없습니다. 'GL/glut.h': No such file or directory
+  main.cpp
+d:\pa2_skeleton\pa2_skeleton\simulator.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'GL/glut.h': No such file or directory
+  Simulator.cpp
+d:\pa2_skeleton\pa2_skeleton\simulator.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'GL/glut.h': No such file or directory
+  Viewer.cpp
+d:\pa2_skeleton\pa2_skeleton\simulator.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'GL/glut.h': No such file or directory

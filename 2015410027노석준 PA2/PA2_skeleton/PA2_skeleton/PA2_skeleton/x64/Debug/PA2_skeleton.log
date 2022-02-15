@@ -1,0 +1,34 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (PA2_solution.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Source.cpp
+Source.obj : error LNK2019: unresolved external symbol __imp_glBegin referenced in function "void __cdecl drawCube(float,float,float)" (?drawCube@@YAXMMM@Z)
+Source.obj : error LNK2019: unresolved external symbol __imp_glClear referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp_glClearColor referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp_glColor3f referenced in function "void __cdecl drawCube(float,float,float)" (?drawCube@@YAXMMM@Z)
+Source.obj : error LNK2019: unresolved external symbol __imp_glDepthFunc referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp_glEnable referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp_glEnd referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp_glLoadIdentity referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp_glMatrixMode referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp_glOrtho referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp_glPopMatrix referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp_glPushMatrix referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp_glRotatef referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp_glScalef referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp_glTranslatef referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp_glVertex3f referenced in function "void __cdecl drawCube(float,float,float)" (?drawCube@@YAXMMM@Z)
+Source.obj : error LNK2019: unresolved external symbol __imp_glViewport referenced in function "void __cdecl reshape(int,int)" (?reshape@@YAXHH@Z)
+Source.obj : error LNK2019: unresolved external symbol __imp___glutInitWithExit referenced in function glutInit_ATEXIT_HACK
+Source.obj : error LNK2019: unresolved external symbol __imp_glutInitDisplayMode referenced in function main
+Source.obj : error LNK2019: unresolved external symbol __imp_glutInitWindowSize referenced in function main
+Source.obj : error LNK2019: unresolved external symbol __imp_glutMainLoop referenced in function main
+Source.obj : error LNK2019: unresolved external symbol __imp___glutCreateWindowWithExit referenced in function glutCreateWindow_ATEXIT_HACK
+Source.obj : error LNK2019: unresolved external symbol __imp_glutSwapBuffers referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp_glutDisplayFunc referenced in function main
+Source.obj : error LNK2019: unresolved external symbol __imp_glutReshapeFunc referenced in function main
+Source.obj : error LNK2019: unresolved external symbol __imp_glutKeyboardFunc referenced in function main
+Source.obj : error LNK2019: unresolved external symbol __imp_glutMouseFunc referenced in function main
+Source.obj : error LNK2019: unresolved external symbol __imp_glutIdleFunc referenced in function main
+D:\JiHyeok\그래픽스 수업자료\2019년1학기\PA2_solution\GL64\opengl32.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+D:\JiHyeok\그래픽스 수업자료\2019년1학기\PA2_solution\GL64\glu32.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+D:\JiHyeok\그래픽스 수업자료\2019년1학기\PA2_solution\GL64\glut32.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+D:\JiHyeok\그래픽스 수업자료\2019년1학기\PA2_skeleton\x64\Debug\PA2_skeleton.exe : fatal error LNK1120: 28 unresolved externals
